@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /newsite/
+Disallow: /oldsite/
+Disallow: /cgi-bin/
