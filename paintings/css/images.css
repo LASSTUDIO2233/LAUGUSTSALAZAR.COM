@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'acc';
-    src: url('fonts/acc-webfont.eot');
-    src: url('fonts/acc-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/acc-webfont.woff2') format('woff2'),
-         url('fonts/acc-webfont.woff') format('woff'),
-         url('fonts/acc-webfont.ttf') format('truetype'),
-         url('fonts/acc-webfont.svg#accregular') format('svg');
+    font-family: 'accregular';
+    src: url('/fonts/acc-webfont.eot');
+    src: url('/fonts/acc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/acc-webfont.woff2') format('woff2'),
+         url('/fonts/acc-webfont.woff') format('woff'),
+         url('/fonts/acc-webfont.ttf') format('truetype'),
+         url('/fonts/acc-webfont.svg#accregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +44,7 @@
 }
 
 .image-info .info .title {
-  font-family: acc;
+  font-family: accregular;
 }
 
 .info p {
