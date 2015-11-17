@@ -13,7 +13,7 @@ Lives and works in Los Angeles
   <div class='year'>2015</div>
   <div markdown=1 class='exhibitions'>
 
-  *And And*, Diana, Los Angeles, CA
+  *LAS 2K15*, Diana, Los Angeles, CA
 
   </div>
 </div>

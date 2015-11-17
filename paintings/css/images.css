@@ -12,8 +12,6 @@
 
 .images {
   width: 980px;
-  #margin-left: auto;
-  #margin-right: auto;
 }
 
 .image-info {
@@ -24,7 +22,6 @@
 .image-info .image {
   width: 720px;
   text-align: right;
-  #text-align: center;
 }
 
 .image-info .image img {
@@ -55,3 +52,22 @@
   padding-top: 350px;
 }
 
+.info .title {
+  font-size: 16px;
+  -webkit-text-stroke: 0.15px;
+}
+
+@media only screen
+  and (max-device-width: 736px) {
+  .info .title {
+    -webkit-text-stroke: 0.5px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width:1024px) {
+  .info .title {
+    -webkit-text-stroke: 0.25px;
+  }
+}
