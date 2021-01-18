@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'accregular';
+    src: url('../../fonts/acc-webfont.eot');
+    src: url('../../fonts/acc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/acc-webfont.woff2') format('woff2'),
+         url('../../fonts/acc-webfont.woff') format('woff'),
+         url('../../fonts/acc-webfont.ttf') format('truetype'),
+         url('../../fonts/acc-webfont.svg#accregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.images {
+  width: 980px;
+}
+
+.image-info {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.image-info .image {
+  width: 720px;
+  text-align: right;
+}
+
+.image-info .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-info .info {
+  position: absolute;
+  bottom: 0;
+  
+  margin-left: 730px;
+  margin-bottom: -14px;
+  width: 250px;
+
+  font-size: 0.9em;
+}
+
+.image-info .info .title {
+  font-family: accregular;
+}
+
+.info p {
+  margin-top: -10px;
+}
+
+.blank {
+  padding-top: 350px;
+}
+
+.info .title {
+  font-size: 16px;
+  -webkit-text-stroke: 0.15px;
+}
+
+@media only screen
+  and (max-device-width: 736px) {
+  .info .title {
+    -webkit-text-stroke: 0.5px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width:1024px) {
+  .info .title {
+    -webkit-text-stroke: 0.25px;
+  }
+}
